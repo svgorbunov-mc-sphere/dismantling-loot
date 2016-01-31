@@ -1,11 +1,11 @@
-package ru.svgorbunov.mc.remeltingarmor;
+package ru.svgorbunov.mc.dismantlingarmor;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import ru.svgorbunov.mc.remeltingarmor.proxy.CommonProxy;
+import ru.svgorbunov.mc.dismantlingarmor.proxy.CommonProxy;
 
 /**
  * Created by svgor on 31.01.2016.
@@ -15,7 +15,7 @@ public class Main {
     @Mod.Instance
     public static Main Instance = new Main(); // TODO: public field??
 
-    @SidedProxy(clientSide = "ru.svgorbunov.mc.remeltingarmor.proxy.ClientProxy", serverSide = "ru.svgorbunov.mc.remeltingarmor.proxy.ServerProxy")
+    @SidedProxy(clientSide = "ru.svgorbunov.mc.dismantlingarmor.proxy.ClientProxy", serverSide = "ru.svgorbunov.mc.dismantlingarmor.proxy.ServerProxy")
     private static CommonProxy _proxy;
 
     @Mod.EventHandler

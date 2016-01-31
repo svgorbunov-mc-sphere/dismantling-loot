@@ -1,7 +1,7 @@
 [
 {
-  "modid": "remeltingarmor",
-  "name": "Remelting Armor",
+  "modid": "dismantlingarmor",
+  "name": "Dismantling Armor",
   "description": "",
   "version": "${version}",
   "mcversion": "${mcversion}",

@@ -1,4 +1,4 @@
-package ru.svgorbunov.mc.remeltingarmor.proxy;
+package ru.svgorbunov.mc.dismantlingarmor.proxy;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
