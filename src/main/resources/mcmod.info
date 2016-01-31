@@ -1,0 +1,16 @@
+[
+{
+  "modid": "remeltingarmor",
+  "name": "Remelting Armor",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/svgorbunov/remelting-armor",
+  "updateUrl": "",
+  "authorList": ["svgorbunov"],
+  "credits": "svgorbunov",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

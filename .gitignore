@@ -1,0 +1,7 @@
+.gradle
+.idea
+build/
+eclipse/
+remelting-armor.iml
+remelting-armor.ipr
+remelting-armor.iws
