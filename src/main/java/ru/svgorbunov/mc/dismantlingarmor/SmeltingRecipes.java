@@ -1,8 +1,8 @@
 package ru.svgorbunov.mc.dismantlingarmor;
 
-import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
  * Created by svgor on 01.02.2016.

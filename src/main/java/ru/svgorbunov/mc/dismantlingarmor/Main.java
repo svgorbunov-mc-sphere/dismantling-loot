@@ -1,10 +1,10 @@
 package ru.svgorbunov.mc.dismantlingarmor;
 
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.SidedProxy;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import ru.svgorbunov.mc.dismantlingarmor.proxy.CommonProxy;
 
 /**
@@ -13,7 +13,7 @@ import ru.svgorbunov.mc.dismantlingarmor.proxy.CommonProxy;
 @Mod(modid = ModInfo.MODID, name = ModInfo.NAME, version = ModInfo.VERSION)
 public class Main {
     @Mod.Instance
-    public static Main Instance = new Main(); // TODO: public field??
+    public static Main Instance = new Main();
 
     @SidedProxy(clientSide = "ru.svgorbunov.mc.dismantlingarmor.proxy.ClientProxy", serverSide = "ru.svgorbunov.mc.dismantlingarmor.proxy.ServerProxy")
     private static CommonProxy _proxy;
