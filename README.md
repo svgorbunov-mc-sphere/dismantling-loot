@@ -1,3 +1,3 @@
-# Dismantling Armor Minecraft Mod
+# Dismantling Loot Minecraft Mod
 
-This modification allows to melt the metal armor back into ingots.
+This modification adds a number of recipes that provide a lot of resources from loot.
