@@ -1,22 +1,25 @@
-package ru.svgorbunov.mc.dismantlingarmor.proxy;
+package ru.svgorbunov.mc.dismantlingloot.proxy;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import ru.svgorbunov.mc.dismantlingarmor.SmeltingRecipes;
 
 /**
  * Created by svgor on 31.01.2016.
  */
-public class CommonProxy {
+public class ServerProxy extends CommonProxy {
+    @Override
     public void preInit(FMLPreInitializationEvent e) {
+        super.preInit(e);
     }
 
+    @Override
     public void init(FMLInitializationEvent e) {
-        SmeltingRecipes.init();
+        super.init(e);
     }
 
+    @Override
     public void postInit(FMLPostInitializationEvent e) {
-
+        super.postInit(e);
     }
 }

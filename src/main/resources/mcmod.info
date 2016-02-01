@@ -1,11 +1,11 @@
 [
 {
-  "modid": "dismantlingarmor",
-  "name": "Dismantling Armor",
+  "modid": "dismantlingloot",
+  "name": "Dismantling Loot",
   "description": "",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/svgorbunov/remelting-armor",
+  "url": "https://github.com/svgorbunov/dismantling-armor",
   "updateUrl": "",
   "authorList": ["svgorbunov"],
   "credits": "svgorbunov",

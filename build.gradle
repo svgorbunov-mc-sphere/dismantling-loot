@@ -20,9 +20,9 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 
-version = "1.0"
-group= "ru.svgorbunov.mc.dismantlingarmor" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "dismantling-armor-1.8"
+version = "1.0.1"
+group= "ru.svgorbunov.mc.dismantlingloot" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "dismantling-loot-1.8"
 
 minecraft {
     version = "1.8-11.14.4.1577"
