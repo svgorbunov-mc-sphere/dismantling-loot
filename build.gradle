@@ -1,14 +1,18 @@
-defaultTasks 'build', 'gather'
+defaultTasks 'clear', 'build', 'gather'
 
 ext.baseName = "dismantling-loot"
 
 allprojects {
     group= "ru.svgorbunov.mc.dismantlingloot"
-    version = "1.0.1"
+    version = "1.0.2"
 }
 
 task gather(type: Copy) {
     from '1.7.10/build/libs'
     from '1.8/build/libs'
     into 'build/libs'
+}
+
+task clear(type: Delete) {
+    delete '1.7.10/build/libs', '1.8/build/libs', 'build/libs'
 }
