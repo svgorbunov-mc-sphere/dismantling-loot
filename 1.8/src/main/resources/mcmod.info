@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dismantlingloot",
+  "name": "Dismantling Loot",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/svgorbunov/dismantling-loot",
+  "updateUrl": "",
+  "authorList": ["svgorbunov"],
+  "credits": "svgorbunov",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
