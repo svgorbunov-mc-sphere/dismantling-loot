@@ -16,3 +16,16 @@ task gather(type: Copy) {
 task clear(type: Delete) {
     delete '1.7.10/build/libs', '1.8/build/libs', 'build/libs'
 }
+
+task deploy << {
+    copy {
+        from '1.7.10/build/libs'
+        into 'D:\\home\\ftp\\minecraft\\mods\\1.7.10'
+    }
+
+    copy {
+        from '1.8/build/libs'
+        into 'D:\\home\\ftp\\minecraft\\mods\\1.8'
+        exclude { details -> details.file.name.endsWith('-sources.jar') }
+    }
+}

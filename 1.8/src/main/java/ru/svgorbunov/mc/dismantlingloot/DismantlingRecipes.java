@@ -61,5 +61,11 @@ public class DismantlingRecipes {
         GameRegistry.addShapelessRecipe(new ItemStack(Items.iron_ingot, 1, 0), new Object[]{new ItemStack(Items.iron_hoe, 1, OreDictionary.WILDCARD_VALUE)});
         GameRegistry.addShapelessRecipe(new ItemStack(Items.gold_ingot, 1, 0), new Object[]{new ItemStack(Items.golden_hoe, 1, OreDictionary.WILDCARD_VALUE)});
         GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 1, 0), new Object[]{new ItemStack(Items.diamond_hoe, 1, OreDictionary.WILDCARD_VALUE)});
+
+        // bow
+        GameRegistry.addShapelessRecipe(new ItemStack(Items.string, 2, 0), new Object[]{new ItemStack(Items.bow, 1, OreDictionary.WILDCARD_VALUE)});
+
+        // fishing rod
+        GameRegistry.addShapelessRecipe(new ItemStack(Items.string, 1, 0), new Object[]{new ItemStack(Items.fishing_rod, 1, OreDictionary.WILDCARD_VALUE)});
     }
 }
